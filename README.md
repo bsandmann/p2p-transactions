@@ -1,2 +1,3 @@
 # p2p-transactions
-Using the Cardano-Blockchain and Atala PRISM to enable trustful and private P2P market transaction by using a 'history of trust' in areas where no central marketplace solutions exist
+## A Cardano-Catalyst projekt to build a library to enable trustful and private P2P market transaction by ATALA PRISM DIDs.
+
