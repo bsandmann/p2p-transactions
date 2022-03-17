@@ -7,5 +7,7 @@ In addition to the technical experiments the research around trust-models, SSI a
 
 A first result of the research phase is a new proposal for *Fund 8: Self-Souvereign identity* which can be found [here]( https://cardano.ideascale.com/c/idea/404879). The proposal has an overlapping with the ongoing proposal, but only regarding theoretical aspects – not technical ones. It is about the trust-building phase before a transaction even happens. In the proposal we try to find a better way to do endorsement on the web. Have a look at the proposal or visit [blocktrust.dev](http://blocktrust.dev). 
 
+The project is schedueld to be finished until 2022-09-30 (End of September 2022)
+
 ## 2022-03-03 Received funding
 The initial batch of funding was received, and the work will begin next week with the research phase.
