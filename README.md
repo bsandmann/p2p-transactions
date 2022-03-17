@@ -1,5 +1,5 @@
 # p2p-transactions
-## A Cardano-Catalyst projekt to build a library to enable trustful and private P2P market transaction by ATALA PRISM DIDs.
+## A Cardano-Catalyst projekt to build a library to enable trustful and private P2P market transaction by Atala PRISM DIDs.
 
 This page provides essential information about the project process of the project funded by Cardano-Catalyst.
 All development of the white paper and code base is happening publicly on this site.
@@ -12,7 +12,7 @@ or via Catalyst @bsandmann
 
 # Progress-report
 The progress-report can be found [here](progress_report.md)
-*last updated 2022-03-17*
+
 
 
 # Project description 
