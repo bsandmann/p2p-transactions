@@ -1,5 +1,10 @@
 # Progress report
 
+## 2022-03-30 Research and POC Planing
+After a few days of work, the research continued: step by step, it goes deeper into the SSI matter and new ideas are emerging. Primary focus is to dig into DID specifications and to think through possible workflows for different trust models.
+
+Along the way, the technical design for a POC is starting. The approach is currently to provide several generic modules as a microservice: For DID-based authentication, for creating, tracing and verifying them. Above all, there is always the question of complexity in the architecture conception. How does one want to build such a system? How small-scale do you want to be with the microservices, or is a system that consists of perhaps only two or three components and is tightly coupled sufficient for a POC?
+
 ## 2022-03-17 Research & notes on the whitepaper
 After the completion of the PRISM Pioneers program a few months have gone by, so I started working through some of the already visited material to get a better understanding of a few technical details. The new version (1.3.1-SP1) was integrated and some experiments completed. There are still a lot of open questions regarding the release version of the SDK and the node itself. Especially around the business model of IOG.
 
