@@ -5,7 +5,7 @@ Work on the white paper and the concept continued, but more slowly than expected
 
 Why is this relevant to the proposal? Having your own implementation of a node increases the freedom of possibilities to make feature enhancements that are relevant to the proposal. So far, the premise has always been: how to implement the idea of a trust network based on PRISM. This inevitably led to architectural twists, and constraints. With the newfound understanding and the existing technical foundation, this opens up new ways to implement the original proposal more effectively. Is this the fastest way to complete the proposal? No, but the dissatisfaction of quickly implementing a half-baked solution that then ends up in a drawer is increasing. So, I'm going to dig a little deeper into PRISM, finish the PoC of a PRISM compatible node first, then come back to the proposal. It is becoming apparent that the proposal will take a little longer to implement, but I doubt that is problematic since the time and funding will go exclusively to PRISM related projects, contributing to the overall development of the ecosystem.
 
-In return, as a fringe product within 2 weeks, there will also be something to see here again, which has not yet been seen in the PRISM ecosystem. So much for the teaser …
+In return, as a supporting feature, there will be something to see here within 2 weeks that has not been seen before in the PRISM ecosystem. So much for the teaser ...
 
 
 ## 2022-07-27 The three stages of trust
