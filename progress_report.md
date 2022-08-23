@@ -1,5 +1,13 @@
 # Progress report
 
+## 2022-08-23 At the core lies the node
+Work on the white paper and the concept continued, but more slowly than expected. Regardless, all of my work time is going into topics that have something directly to do with PRISM and that are advancing my understanding of SSI. A significant portion of that is just going into understanding the node, the intricacies of the DID resolution, and all PRISM relevant data on the chain. I've already come a long way in this process, writing substantial parts of my own PRISM node that reads and evaluates the blockchain. (This way I also already found a few bugs that are existing in the official PRISM node – and that I have reported to IOG).
+
+Why is this relevant to the proposal? Having your own implementation of a node increases the freedom of possibilities to make feature enhancements that are relevant to the proposal. So far, the premise has always been: how to implement the idea of a trust network based on PRISM. This inevitably led to architectural twists, and constraints. With the newfound understanding and the existing technical foundation, this opens up new ways to implement the original proposal more effectively. Is this the fastest way to complete the proposal? No, but the dissatisfaction of quickly implementing a half-baked solution that then ends up in a drawer is increasing. So, I'm going to dig a little deeper into PRISM, finish the PoC of a PRISM compatible node first, then come back to the proposal. It is becoming apparent that the proposal will take a little longer to implement, but I doubt that is problematic since the time and funding will go exclusively to PRISM related projects, contributing to the overall development of the ecosystem.
+
+In return, as a fringe product within 2 weeks, there will also be something to see here again, which has not yet been seen in the PRISM ecosystem. So much for the teaser …
+
+
 ## 2022-07-27 The three stages of trust
 While the last time (interrupted by the summer vacations) the work was very much about the wallet, the SDK and Catalyst, I continued with the already overdue white paper. The central question is how to enable trust between two parties without a central platform. A goal that I realize increasingly is actually a step too far. It tries to realize something for which some foundations are missing. Not that it can't be done, but without those foundations it can only be a PoC and nothing more—and that would be a waste. 
 
