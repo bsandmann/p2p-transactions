@@ -1,5 +1,16 @@
 # Progress report
 
+## 2022-09-14 Understanding the ecosystem
+As promised, now an update regarding the last post. The proof of concept for my own PRISM node is now online in the Cardano test-network and at the same time also an analytics platform for PRISM. As new blocks are created in the test-network, they are scanned and analyzed for PRISM operations found in the metadata. If a PRISM operation (e.g. the creation of a DID or the issuing of a Verifiable Credential (VC)) is detected, it is decoded and verified, and then written to an SQL database.
+In this process, not every operation located on the test-network is valid. Cardano is a permissionless blockchain and theoretically anyone can write new PRISM operations to the blockchain and make claims that are not true. Consequently, each operation must be checked. Are the operations in the correct order? Are the signatures valid? Which in turn requires that the DID already exist with the corresponding public keys as well and have not been revoked, etc. All valid PRISM operations then end up in an SQL database.
+
+Based on the node and the SQL database, another application then performs a statistical evaluation with each new block and makes it available on an interface. This is the basis for the current PoC of blocktrust analytics (https://analytics.blocktrust.dev). Using these statistics, we can now see for the first time what’s going on in the PRISM ecosystem. How active is the developer community? What about IOG's collaborations? E.g.: with Dish or the Ministry of Education in Ethiopia? But it's not just about statistics. Using a database of all existing DIDs and VC will also help developers and companies better understand what they are doing on the blockchain. Why do operations fail? How many VC has a particular DID already issued?
+
+However, the most exciting topic is certainly the formation and analysis of the slowly emerging trust network. However, this is outside this proof-of-concept. This was primarily created to investigate the feasibility of such an analysis platform.
+
+So how does this all fit in with the existing proposal? As I mentioned earlier, I realized more and more in the course of the work that I can theoretically implement the proposal relatively quickly as a demo, but there is still a lack of tools around in our ecosystem to be effective. A completed proposal that immediately ends up in a drawer is no help to anyone. So the work continues step by step in the direction of the original plan - just with a few detours via solutions and tools that really help to expand the ecosystem and provide the basis for achieving an impact with the original proposal as well.
+
+
 ## 2022-08-23 At the core lies the node
 Work on the white paper and the concept continued, but more slowly than expected. Regardless, all of my work time is going into topics that have something directly to do with PRISM and that are advancing my understanding of SSI. A significant portion of that is just going into understanding the node, the intricacies of the DID resolution, and all PRISM relevant data on the chain. I've already come a long way in this process, writing substantial parts of my own PRISM node that reads and evaluates the blockchain. (This way I also already found a few bugs that are existing in the official PRISM node – and that I have reported to IOG).
 
