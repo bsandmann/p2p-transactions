@@ -2,7 +2,7 @@
 
 ## 2022-12-20 While waiting for v2 (Part II)
 Nothing new on the PRISM front. V2 is scheduled for Q1. The work is halted until further information comes out regarding the SDK.
-Meanwhile, the work steadily continues with the Wallet. We are redesigning the internal architecture and preparing to add new features like DIDComm v2. While this work is separate from this proposal, both projects are interconnected, due to the necessity of having also a wallet for P2P transactions.
+Meanwhile, the work steadily continues with the Wallet. We are redesigning the internal architecture and preparing to add new features like DIDComm v2. While this work is separate from this proposal, both projects are interconnected, due to the necessity of having also a wallet for P2P transactions. Please have a look into the wallet and analytics-platform where most of the time and effort is currently put into.
 
 
 ## 2022-11-23 While waiting for v2
