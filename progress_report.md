@@ -1,5 +1,9 @@
 # Progress report
 
+## 2022-01-29 While waiting for v2 (Part III)
+The work on the proposal itself is currently mostly on hold until PRISM v2 comes out. Meanwhile we work continues on other PRISM related topics like the Blocktrust identity wallet and the PRISM analytics platform. Also, we are currently working on a DIDComm v2 library to allow .net developers to take part in the PRISM ecosystem.
+
+
 ## 2022-12-20 While waiting for v2 (Part II)
 Nothing new on the PRISM front. V2 is scheduled for Q1. The work is halted until further information comes out regarding the SDK.
 Meanwhile, the work steadily continues with the Wallet. We are redesigning the internal architecture and preparing to add new features like DIDComm v2. While this work is separate from this proposal, both projects are interconnected, due to the necessity of having also a wallet for P2P transactions. Please have a look into the wallet and analytics-platform where most of the time and effort is currently put into.
