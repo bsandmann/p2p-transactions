@@ -1,6 +1,9 @@
 # Progress report
 
-## 2022-01-29 While waiting for v2 (Part III)
+## 2023-02-20 While waiting for v2 (Part IV)
+While the waiting for PRISM v2 continues, a few more features are getting clearer, the use of DIDComm, WACI, PeerDIDs and JSON Credentials. While this project is mostly on hold presently the work continues on the other PRISM related projects. We just finished the port of the DIDComm v2 library to .Net (see here: https://github.com/bsandmann/blocktrust.DIDComm), as well as the DID Peer library (See here https://github.com/bsandmann/blocktrust.PeerDID). Both libraries will be extensively used in our other PRISM projects and also find the use in this proposal.
+
+## 2023-01-29 While waiting for v2 (Part III)
 The work on the proposal itself is currently mostly on hold until PRISM v2 comes out. Meanwhile we work continues on other PRISM related topics like the Blocktrust identity wallet and the PRISM analytics platform. Also, we are currently working on a DIDComm v2 library to allow .net developers to take part in the PRISM ecosystem.
 
 
