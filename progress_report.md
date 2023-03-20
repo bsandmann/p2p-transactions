@@ -1,7 +1,11 @@
 # Progress report
+## 2023-03-20 While waiting for v2 (Part V)
+We are still waiting for the release for PRISM v2. Simultaneously the work continues full time on different projects related to Atala PRISM. After the port of the DIDComm and PeerDID library, last month, we also open-sourced the blocktrust mediator this month (https://github.com/bsandmann/blocktrust.Mediator - also running in the cloud at https://mediator.blocktrust.dev). We also achieved a breakthrough in interoperability between the blocktrust wallet (which will also be used in this proposal) and the wallet of the team of RootsId-Team by sending messages back and forth for the first time (which is also a requirement for this proposal). Since some information on PRISM v2 are still a bit unclear and most of the time is invested into the more tangible projects and required foundational work, this project is moving much slower.
+
 
 ## 2023-02-20 While waiting for v2 (Part IV)
 While the waiting for PRISM v2 continues, a few more features are getting clearer, the use of DIDComm, WACI, PeerDIDs and JSON Credentials. While this project is mostly on hold presently the work continues on the other PRISM related projects. We just finished the port of the DIDComm v2 library to .Net (see here: https://github.com/bsandmann/blocktrust.DIDComm), as well as the DID Peer library (See here https://github.com/bsandmann/blocktrust.PeerDID). Both libraries will be extensively used in our other PRISM projects and also find the use in this proposal.
+
 
 ## 2023-01-29 While waiting for v2 (Part III)
 The work on the proposal itself is currently mostly on hold until PRISM v2 comes out. Meanwhile we work continues on other PRISM related topics like the Blocktrust identity wallet and the PRISM analytics platform. Also, we are currently working on a DIDComm v2 library to allow .net developers to take part in the PRISM ecosystem.
